@@ -1,3 +1,5 @@
+This is a chrome extension to switch between Odoo debug modes.
+
 Odoo manages debug mode by `debug` param in the url. There are 3 ways:
 
 1. Debug mode without assets.
