@@ -11,24 +11,21 @@
     "commands": {
         "debug": {
           "suggested_key": {
-            "default": "Ctrl+Shift+1"
+            "default": "Alt+Shift+1"
         },
-        "description": "Dev Mode",
-        "global": true
+        "description": "Dev Mode"
     },
     "debug-assets": {
         "suggested_key": {
-            "default": "Ctrl+Shift+2"
+            "default": "Alt+Shift+2"
         },
-        "description": "Dev Mode (with assets)",
-        "global": true
+        "description": "Dev Mode (with assets)"
     },
     "no-debug": {
         "suggested_key": {
-            "default": "Ctrl+Shift+3"
+            "default": "Alt+Shift+3"
         },
-        "description": "Disable Dev Mode",
-        "global": true
+        "description": "Disable Dev Mode"
         }
     },
     "permissions": [

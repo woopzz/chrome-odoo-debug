@@ -8,8 +8,8 @@ Odoo manages debug mode by `debug` param in the url. There are 3 ways:
 
 In order to change them easly this extension shows a popup with options and it provides keybindings ...
 
-1. Ctrl+Shift+1
-2. Ctrl+Shift+2
-3. Ctrl+Shift+3
+1. Alt+Shift+1
+2. Alt+Shift+2
+3. Alt+Shift+3
 
 _(respectively)_
