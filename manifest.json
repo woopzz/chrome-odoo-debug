@@ -1,34 +1,36 @@
 {
-    "name": "Debug param in address bar",
+    "name": "Odoo Debug Mode Switcher",
     "version": "1.0",
-    "description": "Append debug param to the browser address bar.",
+    "description": "Changes debug parameter in the current URL according to Odoo debug modes.",
     "icons": {
         "128": "static/icon128.png"
     },
     "background": {
-        "scripts": ["./background.js"]
+        "scripts": [
+            "static/js/background.js"
+        ]
     },
     "browser_action": {
-        "default_popup": "popup.html"
+        "default_popup": "static/popup.html"
     },
     "commands": {
         "debug": {
-          "suggested_key": {
-            "default": "Alt+Shift+1"
+            "suggested_key": {
+                "default": "Alt+Shift+1"
+            },
+            "description": "Enable Dev Mode"
         },
-        "description": "Dev Mode"
-    },
-    "debug-assets": {
-        "suggested_key": {
-            "default": "Alt+Shift+2"
+        "debug-assets": {
+            "suggested_key": {
+                "default": "Alt+Shift+2"
+            },
+            "description": "Enable Dev Mode (with assets)"
         },
-        "description": "Dev Mode (with assets)"
-    },
-    "no-debug": {
-        "suggested_key": {
-            "default": "Alt+Shift+3"
-        },
-        "description": "Disable Dev Mode"
+        "no-debug": {
+            "suggested_key": {
+                "default": "Alt+Shift+3"
+            },
+            "description": "Disable Dev Mode"
         }
     },
     "permissions": [

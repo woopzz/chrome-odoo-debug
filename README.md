@@ -1,15 +1,22 @@
-This is a chrome extension to switch between Odoo debug modes.
+# Odoo Debug Mode Switcher
 
-Odoo manages debug mode by `debug` param in the url. There are 3 ways:
+In fact this extension sets (or removes) a parameter pair in the current URL query string. You can ...
 
-1. Debug mode without assets.
-2. Debug mode with assets.
-3. Disabled debug.
+- set **debug=1** param pair.
+- set **debug=assets** param pair.
+- remove a param with **debug** key if any.
 
-In order to change them easly this extension shows a popup with options and it provides keybindings ...
+## Installation
 
-1. Alt+Shift+1
-2. Alt+Shift+2
-3. Alt+Shift+3
+Soon be available at Google Store.
 
-_(respectively)_
+## Usage
+
+### Mouse / UI way
+
+Click on the extension icon and choose a debug mode which you want to go into.
+
+### Keyboard way
+
+It would be better for you to check keybindings yourself. Go to `chrome://extensions/shortcuts`.
+By default it should be **Alt+Shift+{1,2,3}** for **debug mode, debug mode with assets and disabled debug mode** respectively.
