@@ -1,5 +1,7 @@
 # Odoo Debug Mode Switcher
 
+[Activate through the URL (Odoo doc)](https://www.odoo.com/documentation/15.0/applications/general/developer_mode.html#activate-through-the-url)
+
 In fact this extension sets (or removes) a parameter pair in the current URL query string. You can ...
 
 - set **debug=1** param pair.
