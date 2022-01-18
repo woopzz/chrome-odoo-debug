@@ -10,7 +10,7 @@ In fact this extension sets (or removes) a parameter pair in the current URL que
 
 ## Installation
 
-Soon be available at Google Store.
+You can find [it at Chrome Web Store](https://chrome.google.com/webstore/detail/odoo-debug-mode-switcher/njeojmbiegejppppjmkbjpceppaogpbj).
 
 ## Usage
 
