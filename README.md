@@ -14,11 +14,5 @@ You can find [it at Chrome Web Store](https://chrome.google.com/webstore/detail/
 
 ## Usage
 
-### Mouse / UI way
-
-Click on the extension icon and choose a debug mode which you want to go into.
-
-### Keyboard way
-
 It would be better for you to check keybindings yourself. Go to `chrome://extensions/shortcuts`.
 By default it should be **Alt+Shift+{1,2,3}** for **debug mode, debug mode with assets and disabled debug mode** respectively.
