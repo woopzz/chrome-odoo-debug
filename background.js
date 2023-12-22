@@ -5,12 +5,7 @@ function updateParam(key, value) {
 
         var tab = tabs[0];
         var url = new URL(tab.url);
-
-        if (value === undefined) {
-            url.searchParams.delete(key);
-        } else {
-            url.searchParams.set(key, value);
-        }
+        url.searchParams.set(key, value);
 
         chrome.tabs.update(tab.id, { url: url.href });
     });
@@ -25,7 +20,7 @@ chrome.commands.onCommand.addListener(function (command) {
             updateParam('debug', 'assets');
             break;
         case 'no-debug':
-            updateParam('debug');
+            updateParam('debug', '0');
             break;
     }
 });
