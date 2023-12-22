@@ -4,7 +4,7 @@
     "description": "Changes debug parameter in the current URL according to Odoo debug modes.",
     "background": {
         "scripts": [
-            "static/js/background.js"
+            "background.js"
         ]
     },
     "commands": {
