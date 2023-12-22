@@ -1,18 +1,19 @@
 # Odoo Debug Mode Switcher
 
-[Activate through the URL (Odoo doc)](https://www.odoo.com/documentation/15.0/applications/general/developer_mode.html#activate-through-the-url)
-
-In fact this extension sets (or removes) a parameter pair in the current URL query string. You can ...
-
-- set **debug=1** param pair.
-- set **debug=assets** param pair.
-- remove a param with **debug** key if any.
+### [Why?](https://www.odoo.com/documentation/15.0/applications/general/developer_mode.html#activate-through-the-url)
 
 ## Installation
 
-You can find [it at Chrome Web Store](https://chrome.google.com/webstore/detail/odoo-debug-mode-switcher/njeojmbiegejppppjmkbjpceppaogpbj).
+[Chrome Web Store](https://chrome.google.com/webstore/detail/odoo-debug-mode-switcher/njeojmbiegejppppjmkbjpceppaogpbj)
 
 ## Usage
 
-It would be better for you to check keybindings yourself. Go to `chrome://extensions/shortcuts`.
-By default it should be **Alt+Shift+{1,2,3}** for **debug mode, debug mode with assets and disabled debug mode** respectively.
+Only shortcuts. Default ones:
+
+| Shortcut    | Action |
+| ----------- | --- |
+| Alt+Shift+1 | Enable debug mode  |
+| Alt+Shift+2 | Enable assets mode |
+| Alt+Shift+3 | Disable debug / assets mode |
+
+Go to `chrome://extensions/shortcuts` to change keybindings.
